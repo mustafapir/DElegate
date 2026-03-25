@@ -1,3 +1,10 @@
+# DElegate 1.2.3
+
+## Bug fixes
+
+* Fixed compatibility with Seurat v5 / SeuratObject v5.0.0+. The package now uses `LayerData()` instead of the deprecated `GetAssayData()` with `slot=` argument for extracting count data from Seurat objects.
+
+
 # DElegate 1.2.0
 
 ## New features
